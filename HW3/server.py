@@ -10,5 +10,4 @@ while True:
     print(name)
     num = '20221325'
     client.send(num.encode())
-    print(num.decode())
     client.close()
